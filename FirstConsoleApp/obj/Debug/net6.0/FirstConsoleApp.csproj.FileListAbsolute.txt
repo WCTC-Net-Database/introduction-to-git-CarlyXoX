@@ -13,3 +13,18 @@ C:\Users\heath\OneDrive\Desktop\School\.net DB\wctc-net-db-inclass\Class01_Intro
 C:\Users\heath\OneDrive\Desktop\School\.net DB\wctc-net-db-inclass\Class01_IntroToCSharp\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.pdb
 C:\Users\heath\OneDrive\Desktop\School\.net DB\wctc-net-db-inclass\Class01_IntroToCSharp\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.genruntimeconfig.cache
 C:\Users\heath\OneDrive\Desktop\School\.net DB\wctc-net-db-inclass\Class01_IntroToCSharp\FirstConsoleApp\obj\Debug\net6.0\ref\FirstConsoleApp.dll
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\FirstConsoleApp.exe
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\input.csv
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\FirstConsoleApp.deps.json
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\FirstConsoleApp.runtimeconfig.json
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\FirstConsoleApp.dll
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\bin\Debug\net6.0\FirstConsoleApp.pdb
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.AssemblyInfoInputs.cache
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.AssemblyInfo.cs
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.dll
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\refint\FirstConsoleApp.dll
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.pdb
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\FirstConsoleApp.genruntimeconfig.cache
+C:\Users\heath\OneDrive\Desktop\School\.net_DB\introduction-to-git-CarlyXoX\FirstConsoleApp\obj\Debug\net6.0\ref\FirstConsoleApp.dll

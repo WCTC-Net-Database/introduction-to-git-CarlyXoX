@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net DB\\wctc-net-db-inclass\\Class01_IntroToCSharp\\FirstConsoleApp\\FirstConsoleApp.csproj",
+      "projectUniqueName": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net_DB\\introduction-to-git-CarlyXoX\\FirstConsoleApp\\FirstConsoleApp.csproj",
       "projectName": "FirstConsoleApp",
-      "projectPath": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net DB\\wctc-net-db-inclass\\Class01_IntroToCSharp\\FirstConsoleApp\\FirstConsoleApp.csproj",
+      "projectPath": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net_DB\\introduction-to-git-CarlyXoX\\FirstConsoleApp\\FirstConsoleApp.csproj",
       "packagesPath": "C:\\Users\\heath\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net DB\\wctc-net-db-inclass\\Class01_IntroToCSharp\\FirstConsoleApp\\obj\\",
+      "outputPath": "C:\\Users\\heath\\OneDrive\\Desktop\\School\\.net_DB\\introduction-to-git-CarlyXoX\\FirstConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\heath\\AppData\\Roaming\\NuGet\\NuGet.Config",

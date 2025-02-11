@@ -1,5 +1,8 @@
 ﻿using System.ComponentModel.Design.Serialization;
 using System.Security.Cryptography.X509Certificates;
+using System.Xml.Serialization;
+using System.IO;
+using System.Collections;
 
 //Syntax errors and formatting issues solved with ChatGPT
 namespace FirstConsoleApp
@@ -14,8 +17,20 @@ namespace FirstConsoleApp
             var input = Console.ReadLine();
             int.TryParse(input, out int opt);
 
-            StreamReader sr = new StreamReader("input.csv");
-            StreamWriter sw = new StreamWriter("input.csv", true);
+            void UpdateCSV(string character) {
+                StreamWriter sw = new StreamWriter("input.csv", true);
+                sw.WriteLine(character);
+                sw.Close();
+            }
+
+            void OutputCSV() {
+                StreamReader sr = new StreamReader("input.csv");
+                string line;
+                while ((line = sr.ReadLine()) != null) {
+                    Console.WriteLine(line);
+                }
+            }
+              
 
             string[] classes = new string[]
             {
@@ -45,13 +60,11 @@ namespace FirstConsoleApp
             {
                 case 1:
                     Console.WriteLine("Displaying Characters:");
-                    Console.WriteLine(sr.ReadToEnd());
-                    sr.Close();
+                    OutputCSV();
                     break;
                 case 2:
                     Console.Write("Name: ");
-                   string name = Console.ReadLine();
-                    
+                    var name = Console.ReadLine();
                     WriteClasses();
                     Console.Write("Choose a class: ");
                     int.TryParse(Console.ReadLine(), out int classChoice);
@@ -59,9 +72,9 @@ namespace FirstConsoleApp
                     int lvl = 1;
                     int hp = 10;
                     string inventory = "Empty";
+                    string character = name + ", " + chosenClass + ", " + lvl + ", " + hp + ", " + inventory;
                     
-                    sw.WriteLine($"{name},{chosenClass},{lvl},{hp},{inventory}");
-                    sw.Close();
+                    UpdateCSV(character);
                     Console.WriteLine("Character added successfully!");
                     break;
                 case 3:
