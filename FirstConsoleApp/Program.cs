@@ -11,14 +11,11 @@ namespace FirstConsoleApp
     {
         public static void Main()
         {
-            Console.WriteLine("1. Display Characters");
-            Console.WriteLine("2. Add Character");
-            Console.WriteLine("3. Level Up Character");
-            var input = Console.ReadLine();
-            int.TryParse(input, out int opt);
+            
 
             void UpdateCSV(string character) {
                 StreamWriter sw = new StreamWriter("input.csv", true);
+                sw.WriteLine("\n");
                 sw.WriteLine(character);
                 sw.Close();
             }
@@ -56,41 +53,53 @@ namespace FirstConsoleApp
                 return "Unknown";
             }
 
-            switch (opt)
-            {
-                case 1:
-                    Console.WriteLine("Displaying Characters:");
-                    OutputCSV();
-                    break;
-                case 2:
-                    Console.Write("Name: ");
-                    var name = Console.ReadLine();
-                    WriteClasses();
-                    Console.Write("Choose a class: ");
-                    int.TryParse(Console.ReadLine(), out int classChoice);
-                    string chosenClass = ChooseClass(classChoice);
-                    int lvl = 1;
-                    int hp = 10;
-                    string inventory = "Empty";
-                    string character = name + ", " + chosenClass + ", " + lvl + ", " + hp + ", " + inventory;
-                    
-                    UpdateCSV(character);
-                    Console.WriteLine("Character added successfully!");
-                    break;
-                case 3:
-                    Console.Write("Enter Current HP: ");
-                    int.TryParse(Console.ReadLine(), out int currentHP);
-                    
-                    Console.Write("Enter how many HP you wish to add to your stats: ");
-                    int.TryParse(Console.ReadLine(), out int increase);
-                    
-                    currentHP += increase;
-                    Console.WriteLine($"Updated HP: {currentHP}");
-                    break;
-                default:
-                    Console.WriteLine("Invalid option.");
-                    break;
+            bool programRunning = true;
+
+            while(programRunning) {
+                Console.WriteLine("1. Display Characters");
+                Console.WriteLine("2. Add Character");
+                Console.WriteLine("3. Level Up Character");
+                var input = Console.ReadLine();
+                int.TryParse(input, out int opt);
+
+                switch (opt)
+                {
+                    case 1:
+                        Console.WriteLine("Displaying Characters:");
+                        OutputCSV();
+                        break;
+                    case 2:
+                        Console.Write("Name: ");
+                        var name = Console.ReadLine();
+                        WriteClasses();
+                        Console.Write("Choose a class: ");
+                        int.TryParse(Console.ReadLine(), out int classChoice);
+                        string chosenClass = ChooseClass(classChoice);
+                        int lvl = 1;
+                        int hp = 10;
+                        string[] inventory = {};
+                            string inventoryLine = String.Join("|", inventory);
+                        string character = name + "," + chosenClass + "," + lvl + "," + hp + "," + inventoryLine;
+
+                        UpdateCSV(character);
+                        Console.WriteLine("Character added successfully!");
+                        break;
+                    case 3:
+                        Console.Write("Enter Current HP: ");
+                        int.TryParse(Console.ReadLine(), out int currentHP);
+                        
+                        Console.Write("Enter how many HP you wish to add to your stats: ");
+                        int.TryParse(Console.ReadLine(), out int increase);
+                        
+                        currentHP += increase;
+                        Console.WriteLine($"Updated HP: {currentHP}");
+                        break;
+                    default:
+                        Console.WriteLine("Invalid option.");
+                        break;
+                }
             }
+            
         }
     }
 }
